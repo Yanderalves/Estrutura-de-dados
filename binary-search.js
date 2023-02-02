@@ -1,4 +1,4 @@
-function BinarySearch(array, target) {
+function binarySearch(array, target) {
     let firstIndex = 0;
     let lastIndex = array.length - 1;
     let midIndex = 0;
@@ -16,7 +16,8 @@ function BinarySearch(array, target) {
     return false;
 }
 
+
 let array = [1, 8, 9, 78, 98];
 let target = 78;
 
-console.log(BinarySearch(array, target))
+console.log(binarySearch(array, target))
